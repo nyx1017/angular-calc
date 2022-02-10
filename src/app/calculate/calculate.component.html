@@ -1,0 +1,36 @@
+<router-outlet></router-outlet>
+<div class="container">
+    <div class="base">
+        <div class="maindisplay">{{ mainDisplay }}</div>
+        <div>
+            <b>
+                <h1>
+                    <input type="button" class="btn" (click)='enterValue("1")' value="1">
+                    <input type="button" class="btn" (click)='enterValue("2")' value="2">
+                    <input type="button" class="btn" (click)='enterValue("3")' value="3">
+                    <input type="button" class="btn" (click)='operate("*")' value="*">
+                </h1>
+
+                <h1>
+                    <input type="button" class="btn" (click)='enterValue("4")' value="4">
+                    <input type="button" class="btn" (click)='enterValue("5")' value="5">
+                    <input type="button" class="btn" (click)='enterValue("6")' value="6">
+                    <input type="button" class="btn" (click)='operate("-")' value="-">
+                </h1>
+
+                <h1>
+                 <input type="button" class="btn" (click)='enterValue("7")' value="7">
+                 <input type="button" class="btn" (click)='enterValue("8")' value="8">
+                 <input type="button" class="btn" (click)='enterValue("9")' value="9">
+                 <input type="button" class="btn" (click)='operate("+")' value="+">
+              </h1>
+              <h1>
+                <input type="button" class="btn" (click)='clear()' value="C">
+                <input type="button" class="btn" (click)='enterValue("0")' value="0">
+                <input type="button" class="btn" (click)='answer()' value="=">
+                <input type="button" class="btn" (click)='operate("/")' value="/">
+              </h1>
+            </b>
+        </div>
+    <div>
+</div>

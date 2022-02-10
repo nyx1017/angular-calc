@@ -1,0 +1,54 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.base {
+  background: url(https://th.bing.com/th/id/R.d8c9747d51200891323327fe87543f41?rik=lB8mkOnXoDjTpA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f63%2f14%2fuosHIG.jpg&ehk=j4A76weGCERhwzqgYdXiJ3%2fc3s4cCbxgDW%2bAzOkTOJQ%3d&risl=&pid=ImgRaw&r=0);
+  border: 3px solid black;
+  height: 340px;
+}
+
+.maindisplay {
+  background: lightgrey;
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.greybackground {
+  background: lightgrey;
+}
+.redbackground {
+  background: red;
+}
+
+.btn {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin: 5px;
+  line-height: 16px;
+  padding: 12px;
+  border-radius: 30px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+.btn:hover {
+  background: #1c9fa4;
+}
+.btn:active {
+  background: #144e75;
+}
